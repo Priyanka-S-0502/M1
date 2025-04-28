@@ -10,24 +10,18 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
-
+```
+#include <stdio.h>
+int main()
+{
+    char a;
+    scanf("%c",&a);
+    printf("%c",a);
+    return 0;
+}
+```
 ## OUTPUT:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Screenshot 2025-04-28 185916](https://github.com/user-attachments/assets/3f740888-b97a-4362-be18-e2b7efd6ae43)
 
 ## RESULT:
 Thus the program to read 3 characters one by one and print the characters in a reverse order has been executed successfully.
@@ -46,15 +40,24 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
+```
+#include <stdio.h>
+int main()
+{
+ int a;
+ scanf("%d",&a);
+ if(a!=0)
+ {
+     printf("There were %d yards",a);
+ }
+ return 0;
+}
 
+
+
+```
 # OUTPUT:
-
-
-
-
-
-
-
+![Screenshot 2025-04-28 190036](https://github.com/user-attachments/assets/235ca14c-56a3-481d-abad-1944b1604e02)
 
 
 
@@ -80,14 +83,25 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
+```
+#include <stdio.h>
+int main()
+{
+    float p,r,si,y;
+    scanf("%f%f%f",&p,&r,&si);
+    y=si/(p*r/100);
+    printf("No.of.Year is = %.2f",y);
+    return 0;
+}
+
+
+
+
+```
 
 ## OUTPUT:
 
-
-
-
-
-
+![Screenshot 2025-04-28 190141](https://github.com/user-attachments/assets/69f8cc57-6888-444f-ba95-4343ab576aa4)
 
 
 
@@ -111,16 +125,32 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
+```
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a>=21)
+    {
+        printf("He is eligible for marriage\n");
+    }
+    else
+    {
+        printf(" ");
+    }
+    
+ return 0;   
+}
+
+
+
+
+```
 
 ## OUTPUT:
 
-
-
-
-
-
-
-
+![Screenshot 2025-04-28 190247](https://github.com/user-attachments/assets/7980f98d-dcce-4dcf-9453-32fc4ce355f9)
 
 	
 
@@ -147,8 +177,22 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
 ## PROGRAM:
+```
+ #include <stdio.h>
+int main()
+{
+    char ch,ch1,ch2;
+    scanf("%c%c%c",&ch,&ch1,&ch2);
+    printf("The reverse of %c%c%c is %c%c%c",ch,ch1,ch2,ch2,ch1,ch);
+    return 0;
+    
+}
 
+
+
+```
 ## OUTPUT:
+![Screenshot 2025-04-28 202555](https://github.com/user-attachments/assets/d72aa971-981a-4052-8891-9bc1f77a3483)
 
 ## RESULT:
 The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
